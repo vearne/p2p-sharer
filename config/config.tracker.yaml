@@ -1,0 +1,8 @@
+web:
+  mode: "release"
+  listen_address: ":35330"
+
+# 1MB
+piece_size: 1048576
+session_expire: "10s"
+session_check_interval: "3s"
