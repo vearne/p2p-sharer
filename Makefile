@@ -14,5 +14,6 @@ build-dirs:
 
 
 $(RELEASE_DIR)/$(COMMAND_NAME): build-dirs $(wildcard *.go)
-	env GOOS=linux GOARCH=amd64 go build -o $@ $(LDFLAGS)
+	#env GOOS=linux GOARCH=amd64 go build -o $@ $(LDFLAGS)
+	env GOOS=darwin GOARCH=amd64 go build -o $@ $(LDFLAGS)
 
