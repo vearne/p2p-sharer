@@ -3,7 +3,7 @@ module github.com/vearne/p2p-sharer
 go 1.16
 
 require (
-	github.com/gin-gonic/gin v1.7.0
+	github.com/gin-gonic/gin v1.7.7
 	github.com/google/uuid v1.1.1
 	github.com/imroc/req v0.2.4
 	github.com/mohae/deepcopy v0.0.0-20170929034955-c48cc78d4826
